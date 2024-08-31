@@ -32,144 +32,155 @@
           <form class="row g-3 needs-validation" novalidate>
             <h1 class="bg-primary p-1 ">Payment form example</h1>
             <div class="col-md-4">
-              <label
-                for="validationCustom01"
-                class="form-label"
-                aria-placeholder="xxxxx"
-                >Card #</label
-              >
+              <label for="validationCustom01" class="form-label">Card #</label>
               <input
                 type="text"
                 class="form-control"
                 id="validationCustom01"
-                value="Mark"
+                placeholder="xxxxxxxxxx"
                 required
               />
             </div>
             <div class="col-md-4">
               <label for="validationCustom02" class="form-label">CVC #</label>
-              <select class="form-select" id="validationCustom02" required>
-                <option selected disabled value="" aria-placeholder="0000"
-                  >Choose...</option
-                >
-                <option>...</option>
-              </select>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                placeholder="0000"
+                required
+              />
             </div>
             <div class="col-md-4">
-              <label
-                for="validationCustomUsername"
-                class="form-label"
-                aria-placeholder="Amount"
-                >Amount</label
-              >
+              <label for="validationCustom03" class="form-label">Amount</label>
               <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend">$</span>
-                <select class="form-select" id="validationCustom03" required>
-                  <option selected disabled value=""></option>
-                  <option>...</option>
-                </select>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom03"
+                  placeholder="Amount"
+                  required
+                />
               </div>
             </div>
             <div class="col-md-6">
-              <label for="validationCustom01" class="form-label"
+              <label for="validationCustom04" class="form-label"
                 >First name</label
               >
-              <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value=""></option>
-                <option>...</option>
-              </select>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom04"
+                placeholder="Max"
+                required
+              />
             </div>
             <div class="col-md-6">
-              <label for="validationCustom02" class="form-label"
+              <label for="validationCustom05" class="form-label"
                 >Last name</label
               >
-              <select class="form-select" id="validationCustom05" required>
-                <option selected disabled value=""></option>
-                <option>...</option>
-              </select>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom05"
+                placeholder="Caballero"
+                required
+              />
             </div>
 
-            <div class="col-md-6">
-              <label for="validationCustom03" class="form-label">City</label>
-              <select class="form-select" id="validationCustom06" required>
-                <option selected disabled value=""></option>
-                <option>...</option>
-              </select>
+            <div class="col-md-4">
+              <label for="validationCustom06" class="form-label">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom06"
+                placeholder="Iquitos"
+                required
+              />
             </div>
-            <div class="col-md-3">
-              <label for="validationCustom04" class="form-label">State</label>
-              <select class="form-select" id="validationCustom07" required>
-                <option selected disabled value="">Choose...</option>
-                <option>...</option>
-              </select>
+            <div class="col-md-4">
+              <label for="validationCustom07" class="form-label">Country</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom07"
+                placeholder="Peru"
+                required
+              />
             </div>
-            <div class="col-md-3">
-              <label for="validationCustom05" class="form-label"
-                >Postal Code:</label
+            <div class="col-md-4">
+              <label for="validationCustom08" class="form-label"
+                >Postal code</label
               >
-              <select class="form-select" id="validationCustom08" required>
-                <option selected disabled value=""></option>
-                <option>...</option>
-              </select>
+
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom08"
+                placeholder=""
+                required
+              />
             </div>
+
             <div class="col-md-12 d-flex">
               <div class="col-md-6">
                 <label for="validationCustom02" class="form-label"></label>
                 We accept:
-                <div class="col bg-secondary">
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="inlineRadio1"
-                      value="option1"
-                      checked
-                    />
-                    <label class="form-check-label" for="inlineRadio1"
-                      ><i class="fa-brands fa-cc-mastercard"></i
-                    ></label>
-                  </div>
-                  <div class="valid-feedback">
-                    Looks good!
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="inlineRadio2"
-                      value="option2"
-                    />
-                    <label class="form-check-label" for="inlineRadio2"
-                      ><i class="fa-brands fa-cc-visa"></i
-                    ></label>
-                  </div>
+                <div>
+                  <div class="col-6 bg-secondary">
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="inlineRadioOptions"
+                        id="inlineRadio1"
+                        value="option1"
+                        checked
+                      />
+                      <label class="form-check-label" for="inlineRadio1"
+                        ><i class="fa-brands fa-cc-mastercard"></i
+                      ></label>
+                    </div>
 
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="inlineRadio3"
-                      value="option3"
-                    />
-                    <label class="form-check-label" for="inlineRadio3"
-                      ><i class="fa-brands fa-cc-diners-club"></i
-                    ></label>
-                  </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="inlineRadioOptions"
+                        id="inlineRadio2"
+                        value="option2"
+                      />
+                      <label class="form-check-label" for="inlineRadio2"
+                        ><i class="fa-brands fa-cc-visa"></i
+                      ></label>
+                    </div>
 
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="inlineRadioOptions"
-                      id="inlineRadio4"
-                      value="option4"
-                    />
-                    <label class="form-check-label" for="inlineRadio4"
-                      ><i class="fa-brands fa-cc-amex"></i
-                    ></label>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="inlineRadioOptions"
+                        id="inlineRadio3"
+                        value="option3"
+                      />
+                      <label class="form-check-label" for="inlineRadio3"
+                        ><i class="fa-brands fa-cc-diners-club"></i
+                      ></label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="inlineRadioOptions"
+                        id="inlineRadio4"
+                        value="option4"
+                      />
+                      <label class="form-check-label" for="inlineRadio4"
+                        ><i class="fa-brands fa-cc-amex"></i
+                      ></label>
+                    </div>
                   </div>
                 </div>
               </div>
