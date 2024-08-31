@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>Hello Rigo with Vanilla.js</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./4geeks.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -21,7 +27,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row md-8">
         <div class="col">
           <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4">
@@ -52,10 +58,10 @@
             </div>
             <div class="col-md-4">
               <label for="validationCustomUsername" class="form-label"
-                >Amaount</label
+                >Amount</label
               >
               <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <span class="input-group-text" id="inputGroupPrepend">$</span>
                 <input
                   type="text"
                   class="form-control"
@@ -70,7 +76,7 @@
             </div>
             <div class="col-md-6">
               <label for="validationCustom01" class="form-label"
-                >First Name</label
+                >First name</label
               >
               <input
                 type="text"
@@ -84,20 +90,21 @@
               </div>
             </div>
             <div class="col-md-6">
-              <label for="validationCustom01" class="form-label"
-                >Last Name</label
+              <label for="validationCustom02" class="form-label"
+                >Last name</label
               >
               <input
                 type="text"
                 class="form-control"
-                id="validationCustom01"
-                value="Mark"
+                id="validationCustom02"
+                value="Otto"
                 required
               />
               <div class="valid-feedback">
                 Looks good!
               </div>
             </div>
+
             <div class="col-md-6">
               <label for="validationCustom03" class="form-label">City</label>
               <input
@@ -132,7 +139,35 @@
                 Please provide a valid zip.
               </div>
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
+              <label for="validationCustom02" class="form-label"
+                >Last name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                value="Otto"
+                required
+              />
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom03"
+                required
+              />
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <!-- <div class="col-12">
               <div class="form-check">
                 <input
                   class="form-check-input"
@@ -149,55 +184,61 @@
                 </div>
               </div>
             </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
+            
+
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1">1</label>
             </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio3"
+                value="option3"
+                disabled
+              />
+              <label class="form-check-label" for="inlineRadio3"
+                >3 (disabled)</label
+              >
+            </div> -->
           </form>
+          <button type="button" class="btn btn-primary btn-sm">
+            Small button
+          </button>
+          <button type="button" class="btn btn-secondary btn-sm">
+            Small button
+          </button>
         </div>
       </div>
     </div>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
   </body>
 </html>
-
-<!--
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
-    </div>
-  </body>
-</html>
--->
